@@ -1,0 +1,418 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+    <meta name="description" content="">
+    <meta name="Keywords" content="">
+    <title></title>
+    <!-- 移动端地域标签 -->
+    <meta name="location" content="province=北京;city=北京">
+    <meta name="applicable-device" content="mobile">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="canonical" href="">
+    <!-- 移动端地域标签 -->
+    <link rel="stylesheet" href="css/index.css?v1">
+    <link rel="stylesheet" href="css/fSelect.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js?v1"></script>
+    <script type="text/javascript">
+        function browserRedirect() {
+            var sUserAgent = navigator.userAgent.toLowerCase();  
+            var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+            var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+            var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+            var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+            var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+            var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+            var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+            var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
+            if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {  
+            } 
+            else{
+                // window.location.href = 'http://bj.offcn.com/zg/19xdgkc/';
+            }
+        }  
+        browserRedirect();
+    </script>
+    <script>
+        function pgScale(){
+            var deviceWidth = document.documentElement.clientWidth;
+            if(deviceWidth > 750) deviceWidth = 750;
+            document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+        }
+        pgScale();
+        window.onresize=pgScale;
+    </script>
+<script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script>
+</head>
+<body style="overflow-x: hidden;">
+
+<div class="zg-wrap">
+
+    <!-- header -->
+    <header class="fixed navbar">
+        <a href="http://m.bj.offcn.com/" target="_blank" class="logo">
+            <img src="./images/mzglogo.png" alt="">中公教育
+        </a>
+        <a href="http://m.bj.offcn.com/zg/wap/address.html" target="_blank" class="zgfb">
+            <img src="./images/fb.png" alt="">分部地址
+        </a>
+    </header>
+    <!-- m_banner -->
+    <div class="mban">
+        <h1 class="">2019教招课程新体系</h1>
+    </div>
+    <!-- zgm1 -->
+    <div class="zgm1">
+        <h2>2019上半年教招考情分析</h2>
+        <table class="table">
+            <tr>
+                <th>区县</th>
+                <th>公告发布日期</th>
+                <th>招聘人数</th>
+                <th>报名截止时间</th>
+                <th>笔试时间</th>
+                <th>笔试备考周期（天）</th>
+                <th>笔试成绩发布</th>
+                <th>资格复审</th>
+                <th>面试备考周期（天）</th>
+                <th>面试开始时间</th>
+            </tr>
+            <tr>
+                <td>朝阳区</td>
+                <td>1月3日</td>
+                <td>132</td>
+                <td>1月12日</td>
+                <td>1月13日</td>
+                <td>1</td>
+                <td>1月17日</td>
+                <td>/</td>
+                <td>3</td>
+                <td>1月20日</td>
+            </tr>
+            <tr>
+                <td>石景山区</td>
+                <td>5月30日</td>
+                <td>96</td>
+                <td>6月11日</td>
+                <td>6月13日</td>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>未开始</td>
+            </tr>
+            <tr>
+                <td>房山区</td>
+                <td>5月17日</td>
+                <td>107</td>
+                <td>5月28日</td>
+                <td>6月1日</td>
+                <td>4</td>
+                <td>6月11日</td>
+                <td>6月13日
+                    14日</td>
+                <td>5</td>
+                <td>6月16日</td>
+            </tr>
+            <tr>
+                <td>海淀区</td>
+                <td>4月12日</td>
+                <td>200</td>
+                <td>4月23日</td>
+                <td>4月27日</td>
+                <td>4</td>
+                <td>5月10日</td>
+                <td>/</td>
+                <td>1</td>
+                <td>5月11日</td>
+            </tr>
+            <tr>
+                <td>延庆区</td>
+                <td>4月1日</td>
+                <td>40</td>
+                <td>4月10日</td>
+                <td>4月14日</td>
+                <td>4</td>
+                <td>4月19日</td>
+                <td>4月22日</td>
+                <td>6</td>
+                <td>4月25日</td>
+            </tr>
+            <tr>
+                <td>东城区</td>
+                <td>3月28日</td>
+                <td>599</td>
+                <td>4月10日</td>
+                <td>4月16日</td>
+                <td>6</td>
+                <td>4月25日</td>
+                <td>4月26日
+                    27日</td>
+                <td>3</td>
+                <td>4月28日</td>
+            </tr>
+            <tr>
+                <td>通州区</td>
+                <td>4月16日</td>
+                <td>332</td>
+                <td>4月25日</td>
+                <td>5月4日</td>
+                <td>9</td>
+                <td>5月16日</td>
+                <td>5月20日</td>
+                <td>7</td>
+                <td>5月23日</td>
+            </tr>
+            <tr>
+                <td>教委直属</td>
+                <td>5月9日</td>
+                <td>5</td>
+                <td>5月16日</td>
+                <td>5月25日</td>
+                <td>9</td>
+                <td>6月5日后</td>
+                <td>6月11日</td>
+                <td>0</td>
+                <td>6月11日</td>
+            </tr>
+            <tr>
+                <td>延庆区</td>
+                <td>4月1日</td>
+                <td>35</td>
+                <td>4月16日</td>
+                <td>/</td>
+                <td>/</td>
+                <td>/</td>
+                <td>/</td>
+                <td>2</td>
+                <td>4月18日</td>
+            </tr>
+            <tr>
+                <td>乡村教师</td>
+                <td>4月4日</td>
+                <td>385</td>
+                <td>4月15日</td>
+                <td>4月27日</td>
+                <td>12</td>
+                <td>5月7日</td>
+                <td>5月9日-5月17日</td>
+                <td>2</td>
+                <td>5月9日</td>
+            </tr>
+            <tr>
+                <td>丰台区</td>
+                <td>4月19日 </td>
+                <td>482</td>
+                <td>4月28日</td>
+                <td>5月11日</td>
+                <td>13</td>
+                <td>5月17日</td>
+                <td>/</td>
+                <td>12</td>
+                <td>5月29日</td>
+            </tr>
+            <tr>
+                <td>昌平区</td>
+                <td>4月11日</td>
+                <td>286</td>
+                <td>4月19日</td>
+                <td>/</td>
+                <td>/</td>
+                <td>/</td>
+                <td>/</td>
+                <td>1</td>
+                <td>4月20日</td>
+            </tr>
+            <tr>
+                <td>西城区</td>
+                <td>3月20日</td>
+                <td>714</td>
+                <td>3月30日</td>
+                <td>4月13日</td>
+                <td>14</td>
+                <td>4月22日</td>
+                <td>/</td>
+                <td>13</td>
+                <td>5月5日</td>
+            </tr>
+            <tr>
+                <td>朝阳区</td>
+                <td>4月17日</td>
+                <td>243</td>
+                <td>4月26日</td>
+                <td>5月11日</td>
+                <td>15</td>
+                <td>5月16日</td>
+                <td>/</td>
+                <td>9</td>
+                <td>5月25日</td>
+            </tr>
+        </table>
+    </div>
+    <!-- zgm2 -->
+    <div class="zgm2">
+        <h2>攻略一：复习要充足 考试才把握</h2>
+        <div class="line"></div>
+        <p>竞争如此激烈，出公告再备考真的可以吗？从历年考情中我们能发现公告时 <br> 间和笔试时间间隔很短，在这么短的时间内我们要复习那么多科目，实在不<br>容易，所以很多同学考前可能连知识点都没有看过一遍就仓促上阵了。</p>
+        <div class="imgbox">
+            <img src="./images/im2.png" alt="">
+        </div>
+    </div>
+     <!-- zgm3 -->
+     <div class="zgm3">
+        <h2>攻略二：公告不错过  上岸机遇多</h2>
+        <div class="line"></div>
+        <p>教师招聘的考试情况，用一个字形容，那就是乱。教师招聘的考试俨然变成<br>了一场信息战，各地市地区公告时间不同，考试内容不同，一不小心就错过<br>了一次上岸的机会怎么办？报名教招公告预约！不错过任何一次上岸机会。 </p>
+        <div class="con">
+            <div class="con-l">
+                <img src="./images/notcie.png" alt="">
+            </div>
+            <div class="con-r">
+                <form action='' id="myform" method="post" name="myform" accept-charset="gb2312" class="form">
+                    <ol>
+                        <li>
+                          <input type="text" id="name" name="info[name]" placeholder="姓名">
+                       </li>
+                        <li>
+                        <input type="text" id="tel" name="info[tel]" placeholder="手机号">
+                       </li>
+                       <li class="yzm_wrap">
+                           <input type="text" id="yzm" name="info[yzm]"  placeholder="验证码">
+                           <a class="DJS" href="javascript:;" id="getyzm" data="309">获取验证码</a>
+                           <a href="javascript:;" id="daojishi" class="wyzm" style="display: none;"></a>
+                           <style>
+                               .DJS, .wyzm {
+                                       display: block;
+                                       float: right;
+                                       width: 1.4rem;
+                                       height: .3rem;
+                                       background: #fff;
+                                       border-radius:0.06rem;
+                                       text-align: center;
+                                       font: 400 .18rem/.3rem "microsoft yahei";
+                                       color: #ff4137;
+                                   }
+                           </style>
+                       </li>
+                       <li>
+                        <select name="info[huji]" id="huji">
+                          <option value="京籍">京籍</option>
+                            <option value="非京籍">非京籍</option>
+                        </select>
+                     </li>
+                     <li class="container">
+                        <select name="info[shiqu]" id="shiqu" class="sel demo" multiple="multiple">
+                        <option value="东 城">东 城</option>
+                        <option value="西 城">西 城</option>
+                        <option value="海 淀">海 淀</option>
+                        <option value="朝 阳">朝 阳</option>
+                        <option value="丰 台">丰 台</option>
+                        <option value="大 兴">大 兴</option>
+                        <option value="通 州">通 州</option>
+                        <option value="顺 义">顺 义</option>
+                        <option value="昌 平">昌 平</option>
+                        <option value="延 庆">延 庆</option>
+                        <option value="房 山">房 山</option>
+                        <option value="平 谷">平 谷</option>
+                        <option value="密 云">密 云</option>
+                        <option value="东 城">东 城</option>
+                        <option value="怀 柔">怀 柔</option>
+                        </select>
+                     </li>
+                   </ol>
+                   <input type="button" value="提交" class="submit" name="dosubmit" id="dosubmit">
+               </form>
+            </div>
+        </div>
+    </div>
+    <!-- zgm4 -->
+    <div class="zgm4">
+        <h2>长线复习 上岸有保障</h2>
+        <div class="m4_con">
+           <div class="tab_w">
+            <div class="tab_head"></div>
+                <table class="tab">
+                    <tr>
+                        <th>区县</th>
+                        <th>公告发布日期</th>
+                        <th>招聘人数</th>
+                        <th>报名截止时间</th>
+                        <th>笔试时间</th>
+                        <th>笔试备考周期（天）</th>
+                        <th>笔试成绩发布</th>
+                        <th>资格复审</th>
+                        <th>面试备考周期（天）</th>
+                        <th>面试开始时间</th>
+                    </tr>
+                    <tr>
+                        <td>朝阳区</td>
+                        <td>1月3日</td>
+                        <td>132</td>
+                        <td>1月12日</td>
+                        <td>1月13日</td>
+                        <td>1</td>
+                        <td>1月17日</td>
+                        <td>/</td>
+                        <td>3</td>
+                        <td>1月20日</td>
+                    </tr>
+                </table>
+           </div>
+            <div class="yh_js">
+                <div class="yh_head"></div>
+                <p class="introduce">留白部分留白部分留白部分留白部分</p>
+                <p class="ad">
+                        转发朋友圈集赞满 <span class="num">36</span>个<br>
+                        即可优惠<span class="num">1000</span>元。
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- zgm5 -->
+    <div class="zgm5">
+            <div class="bot_t"></div>
+            <div class="service"></div>
+    </div>
+    <!-- m_address -->
+    <div class="zg_address" style="width: 7.5rem;background:#444;">
+            <iframe src="http://m.bj.offcn.com/zg/address_m/" frameborder="0" scrolling="no" style="width: 7.2rem;height:8.56rem;margin-left: .15rem;"></iframe>
+    </div>
+
+    <!--foot-->
+    <div class="foot">
+        <a onClick="NTKF.im_openInPageChat('kf_10353_1536732545828')" target="_blank" rel="nofollow"><img src="./images/b11.png" alt="">立即咨询</a>
+        <a href="tel:010-51657188"><img src="./images/b22.png" alt="">010-51657188</a>
+    </div>
+
+</div>
+<script>
+var _hmt = _hmt || [];
+
+(function() {
+
+  var hm = document.createElement("script");
+
+  hm.src = "https://hm.baidu.com/hm.js?dafea501919eb8ebfb740272ece7ba0d";
+
+  var s = document.getElementsByTagName("script")[0]; 
+
+  s.parentNode.insertBefore(hm, s);
+
+})();
+</script>
+<script src="./js/fselect.js"></script>
+ <script src="js/ajax.js"></script>
+<script type="text/javascript">
+    $(function() {
+            $('.demo').fSelect();
+        });
+    </script>
+<script type="text/javascript" src="http://www.offcn.com/statics/js/bdtj_bj.js"></script>
+<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+<script language="javascript" src="http://www.offcn.com/statics/js/bdtj20161014.js"></script>
+<script type="text/javascript" src="http://bj.offcn.com/statics/js/zgjs/xiaoneng.js"></script>
+</body>
+</html>

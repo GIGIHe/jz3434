@@ -1,0 +1,150 @@
+.fs-wrap {
+    position: relative;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.fs-label-wrap {
+    position: relative;
+    /* cursor: default; */
+    display: flex;
+    justify-content: space-between 
+}
+
+.fs-label-wrap,
+.fs-dropdown {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fs-label-wrap .fs-label {
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #fe9d97;
+    width: 2.85rem;
+    height: .4rem;
+    line-height: .4rem;
+    text-indent: 1em;
+    color: #fff;
+    font-size: .2rem;
+}
+
+.tijiao{
+    margin-top: .3rem;
+}
+
+.fs-arrow {
+    width: 0.1rem;
+    height: .4rem;
+    background: url(../images/drap.png)no-repeat center right;
+    -webkit-background-size: .1rem;
+    background-size: .1rem;
+    margin-right: 0.06rem;
+}
+
+.fs-dropdown {
+    position: absolute;
+    z-index: 1000;
+    width: 2.85rem;
+    height: 4rem;
+    font-size: .2rem;
+    border: none;
+    outline: none;
+    background: #fe9d97;
+    left: 0;
+}
+
+.fs-dropdown .fs-search{
+    display: none;
+}
+
+.fs-dropdown .fs-options{
+    background: #fe9d97;
+    border: 1px solid #fff;
+}
+
+.fs-option-label{
+    font-size: .2rem;
+    color: #fff;
+}
+
+.fs-dropdown .fs-options {
+    max-height: 4rem;
+    overflow: auto;
+    width: 2.85rem;
+    /*height: .32rem;*/
+}
+
+.fs-search input {
+    width: 100%;
+    padding: 2px 4px;
+    border: 0;
+}
+
+.fs-option,
+.fs-search,
+.fs-optgroup-label {
+    padding: 6px 8px;
+    border-bottom: 1px solid #eee;
+    cursor: default;
+}
+
+.fs-option {
+    cursor: pointer;
+}
+
+.fs-option.hl {
+    background-color: #f5f5f5;
+}
+
+.fs-wrap.multiple .fs-option {
+    position: relative;
+    padding-left: 30px;
+}
+
+.fs-wrap.multiple .fs-checkbox {
+    position: absolute;
+    display: block;
+    width: 30px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.fs-wrap.multiple .fs-option .fs-checkbox i {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #aeaeae;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.fs-wrap.multiple .fs-option.selected .fs-checkbox i {
+    background-color: #dc2f3c;
+    border-color: transparent;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAABMSURBVAiZfc0xDkAAFIPhd2Kr1WRjcAExuIgzGUTIZ/AkImjSofnbNBAfHvzAHjOKNzhiQ42IDFXCDivaaxAJd0xYshT3QqBxqnxeHvhunpu23xnmAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fs-wrap .fs-option:hover {
+    /*background-color: #f5f5f5;*/
+}
+
+.fs-optgroup-label {
+    font-weight: 400;
+}
+
+.hidden {
+    display: none;
+}
